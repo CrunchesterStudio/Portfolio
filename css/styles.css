@@ -4082,8 +4082,8 @@ textarea.form-control-lg {
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
+  margin-right: 3rem;
+  font-size: 1rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -7704,6 +7704,7 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  padding-top: 2rem;
 }
 
 .text-decoration-none {
@@ -11839,3 +11840,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-bottom: 4rem;
   color: #fff;
 }
+
