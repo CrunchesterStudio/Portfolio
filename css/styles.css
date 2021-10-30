@@ -91,6 +91,12 @@ body {
 .linkItchIoLouseAttack{
   color: #006eff;
 }
+
+#logoStudio{
+  max-width: 20rem;
+      margin-left: auto;
+      margin-right: auto;
+}
 #louseAttackBtn{
   background-color: #006eff;
 }
@@ -102,6 +108,11 @@ body {
 }
 #ourTeam{
   color:  #0fb100;
+}
+
+#botonPrincipal{
+  background-color:#000000;
+  color: #fff;
 }
 hr {
   margin: 1rem 0;
@@ -11457,7 +11468,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/Crunchester_Studio_Logo_FondoNegro.png");
+  background-image: url("../assets/img/neon_lin.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11766,13 +11777,13 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-color: #1e2124;
   background-repeat: no-repeat;
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+
+    color: #8c00ff;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -11823,4 +11834,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#ourSocials{
+  margin-bottom: 4rem;
+  color: #fff;
 }
