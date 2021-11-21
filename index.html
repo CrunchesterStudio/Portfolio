@@ -18,6 +18,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+       
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -41,7 +42,9 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-
+                <div class="container">
+                    <img id="logoStudio" class="col-md-12" src="assets/img/Crunchester_Studio_Logo.png" alt="">
+                </div>
                 <div class="masthead-heading text-uppercase">Welcome!</div>
                 <a id="botonPrincipal" class="btn btn-primary btn-xl text-uppercase" href="#services">KNOW MORE</a>
             </div>
@@ -53,15 +56,52 @@
                     <h2 id="aboutTheStudio" class="section-heading text-uppercase">ABOUT THE STUDIO</h2>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-12">
+                <div class="col-md-3"></div>
+                    <div class="col-md-6">
                         
                             
-                            <img id="logoStudio" class="col-md-12" src="assets/img/Crunchester_Studio_Logo.png" alt="">
-                       
-                        <p class="text-muted">Crunchester Studio is a videogame studio based in Madrid, Spain, founded as part of an academic project in college.</p>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/img/team/EQUIPO.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>OUR TEAM</h5>
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/INICIO.png" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>OUR LAST GAME</h5>
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/Crunchester_Studio_Logo.png" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 style="color: black;">OUR LOGO</h5>
+                                  </div>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" data-bs-target="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" data-bs-target="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
                     </div>
+                        <p class="text-muted">Crunchester Studio is a videogame studio based in Madrid, Spain, founded as part of an academic project in college.
+                             We are currently working in our first game, Louse Attack, an idle game based on lice. </p>
+                    </div>
+                    
                 </div>
-            </div>
+            
         </section>
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
@@ -78,7 +118,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/Fondo_menu.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/INICIO.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Louse Attack</div>
@@ -95,42 +135,43 @@
             <div class="container">
                 <div class="text-center">
                     <h2 id="ourTeam" class="section-heading text-uppercase">OUR TEAM</h2>
-                    
+                    <p>We work together every day to learn, advance in our future and offer our ideas to everybody.</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Juanje.jpeg" alt="..." />
                             <h4>Juan Jesús</h4>
-                            <p class="text-muted">Scrum Master, Programmer</p>
+                            <h6 class="text-muted">Scrum Master, Programmer</h6>
+                            
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                            <img class="img-fluid rounded-circle" src="assets/img/team/Sarita.PNG" alt="..." />
                             <h4>Sara</h4>
-                            <p class="text-muted">Designer, Artist</p>
+                            <h6 class="text-muted">Designer, Artist</h6>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Miguel.jpg" alt="..." />
                             <h4>Miguel</h4>
-                            <p class="text-muted">Programmer, Designer</p>
+                            <h6 class="text-muted">Programmer, Designer</h6>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Maria.jpeg" alt="..." />
                             <h4>María</h4>
-                            <p class="text-muted">Artist, Community Manager</p>
+                            <h6 class="text-muted">Artist, Community Manager</h6>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Diego.jpeg" alt="..." />
                             <h4>Diego</h4>
-                            <p class="text-muted">Designer, Music Designer</p>
+                            <h6 class="text-muted">Designer, Music Designer</h6>
                         </div>
                     </div>
                 </div>
@@ -180,7 +221,32 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">LOUSE ATTACK</h2>
                                     <p class="item-intro text-muted">Lice want to conquer the world, will you help them?</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/Fondo_menu.png" alt="..." />
+                                    <div id="carouselLouseAttack" class="carousel slide" data-bs-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                          <li data-bs-target="#carouselLouseAttack" data-bs-slide-to="0" class="active"></li>
+                                          <li data-bs-target="#carouselLouseAttack" data-bs-slide-to="1"></li>
+                                          <li data-bs-target="#carouselLouseAttack" data-bs-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img class="d-block w-100" src="assets/img/INICIO.png" alt="First slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/img/Juego.PNG" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/img/Juego2.PNG" alt="Third slide">
+                                          </div>
+                                        </div>
+                                        <a class="carousel-control-prev" data-bs-target="#carouselLouseAttack" role="button" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" data-bs-target="#carouselLouseAttack" role="button" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+                                      </div>
                                     <p>Louse Attack is an idle game based on well, lice. You will have to help them expand all around the world's heads creating a lice empire and beating a variety of enemies.</p>
                                     <ul class="list-inline">
                                         <li>
