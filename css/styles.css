@@ -11480,6 +11480,11 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
+video{
+
+  align-self: center;
+}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -11492,6 +11497,7 @@ header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   font-family: "Press Start 2P","Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11515,7 +11521,7 @@ header.masthead .masthead-heading {
   }
 }
 #portfolio .portfolio-item {
-  max-width: 26rem;
+  max-width: 52rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -11527,7 +11533,8 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
-  width: 100%;
+  max-width: 52rem;
+  width: 96%;
   height: 100%;
   background: #006effa8;
   align-items: center;
@@ -11543,6 +11550,7 @@ header.masthead .masthead-heading {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-caption {
+  max-width: 96%;
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
@@ -11846,4 +11854,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-bottom: 4rem;
   color: #fff;
 }
-
+p{
+  font-size: 1.5rem;
+}
+.releaseDate{
+  color:#cc6600;
+}
+.list-inline span{
+font-size: 1.5rem;
+  
+}
